@@ -1,0 +1,62 @@
+body
+{
+  font-family: Calibri, Sans;
+  font-size: 18pt;
+}
+
+#container
+{
+  max-width: calc(25em + 340px);
+  margin: 0 auto;
+}
+
+#banner, .section, address
+{
+  max-width: 25em;
+  min-width: 25em;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#banner
+{
+  background: url("img/logo.png") no-repeat top center;
+  background-size: 7em 40px;
+  padding-top: 40px;
+  font-weight: bold;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#banner h1, #banner h2, #banner h3, #banner div 
+{
+  font-size: 0.6em;
+  margin: 0;
+}
+
+.side { max-width: 150px; }
+img { max-width: 100%; }
+.half { width: 50%; }
+.left { float: left; }
+.right { float: right; }
+
+h4 { display: inline; }
+h4::after { content: " \2013 "; }
+
+address 
+{
+  text-align: center;
+  font-style: normal;
+}
+
+address a { display: block; }
+
+.email { color: inherit; }
+
+.number 
+{
+  color: inherit;
+  text-decoration: inherit;
+  display: inline;
+}
