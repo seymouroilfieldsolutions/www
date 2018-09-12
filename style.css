@@ -35,6 +35,9 @@ body
 }
 
 .side { max-width: 150px; }
+@media screen and (max-width: 700px) {
+  .side { display: none; }
+}
 img { max-width: 100%; }
 .half { width: 50%; }
 .left { float: left; }
